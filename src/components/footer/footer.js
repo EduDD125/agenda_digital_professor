@@ -1,7 +1,7 @@
 export default function Footer() {
     return(
         <footer style={footerStyle}>
-            <p>$copy; {new Date().getFullYear()} Meu Site. Todos os direitos reservados</p>
+            <p>&copy; {new Date().getFullYear()} Meu Site. Todos os direitos reservados</p>
         </footer>
     );
 }
